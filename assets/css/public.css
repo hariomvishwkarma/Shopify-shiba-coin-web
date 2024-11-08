@@ -1,0 +1,110 @@
+@font-face {
+    font-family: LINE Seed JP_OTF;
+    src: url(../font/LINE_Seed_JP/App/OTF/LINESeedJP_A_OTF_Rg.otf);
+}
+@font-face {
+    font-family: Proxima Nova;
+    src: url(../font/Proxima-Nova-Font/Proxima\ Nova\ Font.otf);
+}
+@font-face {
+    font-family: Satisfaction;
+    src: url(../font/satisfaction_2/Satisfaction.otf);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.red{
+    color: #FF3100;
+}
+.green{
+    color: #07AC26;
+}
+.yellow{
+    border-left: 4px solid #FAE804;
+    height: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.s-7{
+    font-size: 7px;
+    font-family: LINE Seed JP_OTF;
+    margin-top: -5px;
+    padding-bottom: 2px;
+    text-align: center;
+}
+.s-11{
+    font-size: 11px;
+    font-family: LINE Seed JP_OTF;
+    font-weight: bold;
+    padding-bottom: 8px;
+    text-align: center;
+}
+/* allow_modal */
+
+.allow_modal {
+    position: relative;
+    position: fixed;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: 10;
+}
+.free_phone{
+    position: absolute;
+    bottom: -25px;
+    right: 10px;
+}
+.free_phone>div{
+    position: relative;
+}
+.allow_modal_button{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
+.allow_modal_close{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+.allow_modal_sp{
+    display: none;
+
+}
+
+.allow_modal_sp .phone_num{
+    /* padding-right: 48px; */
+}
+.allow_modal_sp .phone_num_top{
+    display: flex;
+    font-size: 17px;
+    font-family: LINE Seed JP_OTF;
+    align-items: center;
+    letter-spacing: 1px;
+}
+.allow_modal_sp .phone_num_top img{
+    width: 24px;
+    height: 15px;
+}
+.allow_modal_sp .phone_num_bottom{
+
+}
+.allow_modal_sp .phone_num_bottom p{
+    font-size: 9px;
+    text-align: center;
+    font-family: LINE Seed JP_OTF;
+}
+.allow_modal_button_sp img{
+    width: 157px;
+    height: 28px;
+}
+.allow_modal_close{
+    cursor: pointer;
+}
